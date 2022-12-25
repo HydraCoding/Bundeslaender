@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  color: rgba(66, 66, 66, 0.798);
+  caret-color: transparent;
+}
+
+header {
+  text-align: start;
+  display: FLEX;
+  align-items: center;
+  padding-left: 15px;
+  background-color: lightgray;
+  height: 7vh;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.content {
+  max-width: 1024px;
+}
+
+.liste-bundesländer {
+  gap: 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bundeslandbox {
+  width: 29.4%;
+  border: 10px solid lightgrey;
+  padding-inline: 5px;
+}
+
+.bundeslandbox:hover {
+  border: 10px solid gray;
+}
+
+.bundesland {
+  font-weight: 600;
+}
+
+.first-letter {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons {
+  width: 30px;
+  height: 21px;
+  background-color: lightgray;
+  margin-block-start: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.url {
+  font-size: 9px;
+  position: absolute;
+  margin-block-start: 73px;
+  background-color: lightgray;
+  width: auto;
+  border-radius: 8px;
+}
+
+.d-none {
+  display: none;
+}
+
+a {
+  color: #000000e6;
+}

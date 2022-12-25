@@ -1,0 +1,205 @@
+@media (max-width: 1051px) {
+  .content {
+    max-width: 100%;
+  }
+
+  .bundeslandbox {
+    width: 29.33%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .bundeslandbox {
+    width: 29.29%;
+  }
+}
+
+@media (max-width: 1018px) {
+  .bundeslandbox {
+    width: 29.28%;
+  }
+}
+
+@media (max-width: 1016px) {
+  .bundeslandbox {
+    width: 29.2%;
+  }
+}
+
+@media (max-width: 995px) {
+  .bundeslandbox {
+    width: 29.1%;
+  }
+}
+
+@media (max-width: 972px) {
+  .bundeslandbox {
+    width: 29.05%;
+  }
+}
+
+@media (max-width: 961px) {
+  .bundeslandbox {
+    width: 29%;
+  }
+}
+
+@media (max-width: 950px) {
+  .bundeslandbox {
+    width: 28.8%;
+  }
+}
+
+@media (max-width: 910px) {
+  .bundeslandbox {
+    width: 28.7%;
+  }
+}
+
+@media (max-width: 1018px) {
+  .bundeslandbox {
+    width: 28.5%;
+  }
+}
+
+@media (max-width: 853px) {
+  .bundeslandbox {
+    width: 28.2%;
+  }
+}
+@media (max-width: 810px) {
+  .bundeslandbox {
+    width: 28.1%;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .liste-bundesländer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bundeslandbox {
+    width: 45%;
+  }
+}
+
+@media (max-width: 775px) {
+  .bundeslandbox {
+    width: 44.75%;
+  }
+}
+
+@media (max-width: 741px) {
+  .bundeslandbox {
+    width: 44.5%;
+  }
+}
+
+@media (max-width: 710px) {
+  .bundeslandbox {
+    width: 44.25%;
+  }
+}
+
+@media (max-width: 680px) {
+  .bundeslandbox {
+    width: 44%;
+  }
+}
+
+@media (max-width: 652px) {
+  .bundeslandbox {
+    width: 43.75%;
+  }
+}
+
+@media (max-width: 627px) {
+  .bundeslandbox {
+    width: 43.5%;
+  }
+}
+
+@media (max-width: 605px) {
+  .bundeslandbox {
+    width: 43.25%;
+  }
+}
+
+@media (max-width: 584px) {
+  .bundeslandbox {
+    width: 43%;
+  }
+}
+
+@media (max-width: 563px) {
+  .bundeslandbox {
+    width: 42.75%;
+  }
+}
+
+@media (max-width: 545px) {
+  .bundeslandbox {
+    width: 42.5%;
+  }
+}
+
+@media (max-width: 527px) {
+  .bundeslandbox {
+    width: 42.25%;
+  }
+}
+
+@media (max-width: 511px) {
+  .bundeslandbox {
+    width: 42%;
+  }
+}
+
+@media (max-width: 500px) {
+  .bundeslandbox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 1.9em;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  header {
+    width: 110%;
+  }
+}
+
+@media (max-width: 250px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .bundeslandbox {
+  }
+}
