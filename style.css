@@ -10,6 +10,8 @@ body {
 }
 
 header {
+  box-sizing: border-box;
+  max-width: 99%;
   text-align: start;
   display: FLEX;
   align-items: center;
@@ -20,10 +22,6 @@ header {
   margin-top: 5px;
 }
 
-.content {
-  max-width: 1024px;
-}
-
 .liste-bundesländer {
   gap: 15px;
 
@@ -32,9 +30,16 @@ header {
 }
 
 .bundeslandbox {
-  width: 29.4%;
+  display: block;
+  box-sizing: border-box;
+  width: calc(33% - 10px);
   border: 10px solid lightgrey;
   padding-inline: 5px;
+  text-decoration: none;
+}
+
+.population {
+  color: lightgrey;
 }
 
 .bundeslandbox:hover {
@@ -76,4 +81,15 @@ header {
 
 a {
   color: #000000e6;
+}
+
+@media (max-width: 800px) {
+  .bundeslandbox {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 500px) {
+  .bundeslandbox {
+    width: calc(50% - 10px);
+  }
 }

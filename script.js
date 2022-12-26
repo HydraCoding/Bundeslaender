@@ -20,11 +20,13 @@ function renderBundesländer(respons) {
   listHTML.innerHTML = "";
   for (let i = 0; i < list.length; i++) {
     const element = list[i];
-    listHTML.innerHTML += `<div class="bundeslandbox" onclick="location.href='${element["url"]}'">
+    let population = element["population"].toString().replace(".", ",");
+
+    listHTML.innerHTML += `<a class="bundeslandbox" href='${element["url"]}' target="blank">
         <div class="url d-none" id="box_nr_${i}" ></div>
         <p class="bundesland">${element["name"]}</p>
-        <p class="population">${element["population"]} Miliionen</p>
-      </div>`;
+        <p class="population">${population} Miliionen</p>
+      </a>`;
   }
 }
 
